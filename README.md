@@ -1,2 +1,3 @@
-# yarn
-Chef cookbook for installing yarn
+Yarn Cookbook
+====================
+Installs Yarn.
