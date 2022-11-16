@@ -11,6 +11,6 @@ execute 'add yarn repo' do
   command 'curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -'
 end
 
-execute 'install nodejs' do
+execute 'install yarn' do
   command 'sudo apt-get install -y --force-yes yarn'
 end
